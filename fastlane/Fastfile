@@ -37,6 +37,7 @@ platform :ios do
         workspace: ENV["WORKSPACE_PATH"],
         configuration: ENV["CONFIGURATION"],
         output_name: ENV["OUTPUT_PATH"],
+        scheme: "shipinre",
         clean: true,
         export_method: ENV["EXPORT_METHOD"]
       )
@@ -45,6 +46,7 @@ platform :ios do
         project: ENV["PROJECT_PATH"],
         configuration: ENV["CONFIGURATION"],
         output_name: ENV["OUTPUT_PATH"],
+        scheme: "shipinre",
         clean: true,
         export_method: ENV["EXPORT_METHOD"]
       )
