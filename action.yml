@@ -16,6 +16,9 @@ inputs:
   team-id:
     description: "Team id"
     required: true
+  scheme:
+    description: "Scheme"
+    required: true
   workspace-path:
     description: "Workspace path"
     required: false

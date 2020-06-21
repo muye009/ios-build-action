@@ -8,6 +8,7 @@ async function run() {
     process.env.MOBILEPROVISION_BASE64 = core.getInput("mobileprovision-base64");
     process.env.CODE_SIGNING_IDENTITY = core.getInput("code-signing-identity");
     process.env.TEAM_ID = core.getInput("team-id");
+    process.env.SCHEME = core.getInput("scheme");
     process.env.WORKSPACE_PATH = core.getInput("workspace-path");
     process.env.EXPORT_METHOD = core.getInput("export-method");
     process.env.CONFIGURATION = core.getInput("configuration");
